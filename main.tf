@@ -40,3 +40,8 @@ output "docs" {
   description = "Follow Jenkins X 3.x alpha docs for more information"
   value       = "https://jenkins-x.io/v3/"
 }
+
+output "jx_requirements" {
+ value = module.jx.jx_requirements
+}
+
